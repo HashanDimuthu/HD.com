@@ -1,0 +1,92 @@
+body{
+    background:linear-gradient(to top, rgba(0,0,0, 0.5)50%,rgba(0,0,0,0.5)50%), url('https://raw.githubusercontent.com/HashanDimuthu/IamHashan/main/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size :cover;
+    overflow-x: hidden;
+    font-family: 'The Nautigal', cursive;font-weight: bold;
+    overflow-x: hidden;
+}
+
+header{
+    background: #000;
+    overflow: hidden;
+}
+
+header logo{
+    font-size: 1rem;
+    color: rgb(28, 255, 244); 
+    padding-right: 38.5rem;
+}
+
+header .nav{
+    text-align: right;
+    justify-content: space-evenly;
+}
+
+header .nav a{
+    font-size: 1rem;
+    padding-left: 3rem;
+    color: #fff;
+    transition: 0.6s ease-in-out;
+}
+
+header .nav a:hover{
+    color: rgb(28, 255, 244);
+}
+
+section h3{
+    color: #000;
+    padding-left: 5px;
+    font-size: 2rem;
+}
+
+section h3 span{
+    color: #fff;
+}
+
+section p{
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+
+section img{
+    border-radius: 17rem;
+    width: 15rem;
+    height: 15rem;
+    border:  .2rem solid #000;
+}
+
+section button{
+    border-radius: 5rem;
+    width: 9rem;
+    height: 2rem;
+    color: #fff;
+    border: rgb(20, 255, 243);
+    background: #000;
+    transition: 0.6s ease-in-out
+}
+
+section button:hover{
+    letter-spacing: 3px;
+    color: #000;
+    background: #fff;
+}
+
+.footer{
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding:1rem;
+    text-align: center;
+    color: #fff;
+    background: rgb(83, 83, 83);
+    bottom: 0;
+    overflow-x: hidden;
+}
+
+.footer span a{
+    color: black;
+    text-decoration: none;
+}
