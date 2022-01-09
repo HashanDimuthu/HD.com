@@ -66,7 +66,8 @@ section button{
     color: #fff;
     border: rgb(20, 255, 243);
     background: #000;
-    transition: 0.6s ease-in-out
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
 }
 
 section button:hover{
